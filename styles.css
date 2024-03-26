@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center; 
+      }
+
+img{
+    width: 250px;
+    margin: 35px;
+    border-radius: 50%;
+}
+
+.name, .bio {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: aqua;
+}
+.bio {
+    font-size: large;
+}
